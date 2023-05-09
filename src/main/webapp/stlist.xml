@@ -1,0 +1,90 @@
+<?xml version="1.0"?>  
+<trains>
+<train name="Madurai Express" value="tr1">  
+    <station name="Madurai">  
+        <id>101</id>
+        <seats>70</seats>
+		<points>15</points> 
+    </station>  
+    <station name="Dindugal">  
+        <id>102</id>
+        <seats>40</seats>
+		<points>25</points> 
+    </station>  
+    <station name="Trichy">  
+        <id>103</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Coimbatore">  
+        <id>104</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Chennai">  
+        <id>105</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    
+  
+</train>  
+<train name="Pandian Express" value="tr2">  
+     <station name="Kancheepuram">  
+       <id>201</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Erode">  
+       <id>202</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Salem">  
+       <id>203</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Tanjore">  
+        <id>204</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Thoothukudi">  
+        <id>205</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+  
+  
+</train>  
+<train name="Chennai Express" value="tr3">  
+     <station name="Mumbai">  
+       <id>301</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Banglore">  
+       <id>302</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Cochin">  
+       <id>303</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="Tvd">  
+        <id>304</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+    <station name="australia">  
+        <id>305</id>
+        <seats>40</seats>
+        <points>25</points> 
+    </station>  
+  
+  
+</train>  
+</trains>

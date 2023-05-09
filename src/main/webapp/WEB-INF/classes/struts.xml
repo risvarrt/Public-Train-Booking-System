@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+
+<struts>  
+<constant name="struts.devMode" value="true" /> 
+<package name="default" extends="struts-default" namespace="/">  
+  
+<action name="Buy" class="com.struts.action.BuyAction">  
+
+</action>  
+<action name="viewc" class="com.struts.action.ViewAction">  
+
+</action>
+<action name="viewp" class="com.struts.action.ViewAction1">  
+
+</action>
+<action name="viewavail" class="com.struts.action.AvailabiltyAction">  
+</action>
+
+<action name="stlist" class="com.struts.action.StationAction">  
+
+</action> 
+<action name="Cancelc" class="com.struts.action.CancelcAction">  
+
+</action> 
+<action name="Cancelp" class="com.struts.action.CancelpAction">  
+
+</action> 
+<action name="gettrain" class="com.struts.action.GetTrain">  
+
+</action> 
+</package>  
+
+
+<package name="admin" namespace="/" extends="struts-default"> 
+ 
+<action name="admin" class="com.struts.admin.AdminOpen">  
+<result >/admin.jsp</result>
+</action> 
+
+<action name="adminbuy" class="com.struts.admin.action.BuyMessage">  
+
+</action> 
+<action name="buyactions" class="com.struts.admin.action.ViewBuy">  
+
+</action> 
+<action name="detlbaction" class="com.struts.admin.action.DeleteBuyAction">  
+
+</action> 
+</package>
+
+</struts> 
