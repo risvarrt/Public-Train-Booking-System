@@ -1,23 +1,75 @@
-# Public-Train-Booking-System
-Develop/build an train ticket booking app using servlets and struts2 framework.
-Develop/build an train ticket booking app using servlets and struts2 framework. There are two pages, admin page and reservation page.The admin page can manage all the trains and the tickets booked in each train.Also he can set the message to be sent to each user who reserves the ticket based on the points.The reservation fetches the details from the xml file which contains the details of the train,like its seating capacity and the travel source and destinations.The user can reserve and cancel their tickets in the reservation page.Also there is a waiting list column where the tickets which are pending to be reserved are in the waiting list table.It automatically gets confirmed if any tickets are cancelled
 
-1.Download and install Eclipse Java
-https://www.youtube.com/watch?v=xqS31gwunp0
+# Public Train Ticket Booking System
 
-2.Download and install XAMPP Panel for mysql
-https://www.youtube.com/watch?v=-f8N4FEQWyY
+## Overview
 
-4.Download and install apache tomcat server
-https://www.youtube.com/watch?v=PH-bK3g2YmU
+The Public Train Ticket Booking System is a web application designed to facilitate the booking and management of train tickets. Developed using Java, Servlets, Struts2, and MySQL, this application allows users to reserve and cancel tickets, while admins can manage train details and booking records. The application is implemented using the MVC (Model-View-Controller) design pattern to ensure a clean separation of concerns and maintainable code.
 
-3.After following the steps in the above videos open the project.
+## Features
 
-4.open phymyadmin and import the 3 sql files provided
+- **User Interface:**
+  - **Reservation Page:** Users can view available trains, book tickets, and manage their reservations.
+  - **Admin Page:** Admins can add, update, and remove trains, view booking details, and set messages for users.
 
-5.Run the project
+- **Backend Functionality:**
+  - **Ticket Booking:** Users can book tickets, view available seats, and manage reservations.
+  - **Waiting List:** Automatically manage waiting lists when tickets are fully booked.
+  - **Data Storage:** Store booking and train information in a MySQL database.
+  - **XML Integration:** Fetch train details from an XML file.
 
-Railway Ticket Reservation System  This is an servlet web app based on MVC concept.  HTML , CSS , JS , Scriptlets were used for front end  Mysql server was used for back end  Struts2 Framework was used for connecting front end and backend.  Jdbc is used to connect front end and backend  2 Packages were created one for all actions classes and other for all class files.  All operations that were processed were implemented in action class  Ajax is used to get the data from the backend  All are stored as objects while moving them through the backend EG: A class Train is created with 8 member variables and Getter&Setter
-14 were created for the member variables. 1.private int Uid; 2. private int total; 3. private String Source; 4. private String Destination; 5. private int price; 6. private String Status; 7. private String phone; 8. private String trainid;  The train details are stored in xml file in the format <train name="Madurai Express" value="tr1"> <station name="Madurai"> <id>101</id> <seats>70</seats> <points>15</points> </station>
-15
-  
+- **APIs:**
+  - **REST API:** Perform CRUD operations for train and booking data. Integrated with Zoho Creator and secured with OAuth 2.0.
+
+## Technologies Used
+
+- **Programming Languages:** Java
+- **Frameworks:** Struts2
+- **Server:** Apache Tomcat
+- **Database:** MySQL
+- **IDE:** Eclipse
+- **Other Tools:** Visual Studio Code, POSTMAN for API testing
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/Public-Train-Ticket-Booking-System.git
+   ```
+
+2. **Set Up the Database:**
+   - Import the provided SQL script to set up the database schema and sample data.
+
+3. **Configure the Application:**
+   - Update the database connection details in the `web.xml` file and `struts.xml` configuration files as needed.
+
+4. **Build and Deploy:**
+   - Use Eclipse or any preferred IDE to build the project.
+   - Deploy the WAR file to Apache Tomcat server.
+
+5. **Run the Application:**
+   - Start the Tomcat server and navigate to `http://localhost:8080/YourAppName` to access the application.
+
+## Usage
+
+- **User:**
+  - Access the reservation page to book and manage tickets.
+  - View available trains and seat availability.
+
+- **Admin:**
+  - Access the admin page to manage trains and view booking details.
+  - Add, update, or remove train records and manage user reservations.
+
+## Future Enhancements
+
+- **Specific Seat Booking:** Allow users to select specific seats.
+- **Notification System:** Implement email or SMS notifications for booking confirmations.
+- **Front-End Improvements:** Enhance the user interface with modern design elements.
+
+## References
+
+- [Java Tutorial](https://www.javatpoint.com/java-tutorial)
+- [OOP Concepts](https://www.javatpoint.com/java-oops-concepts)
+- [JDBC Tutorial](https://www.javatpoint.com/java-jdbc)
+- [Struts2 Tutorial](https://www.javatpoint.com/struts-2-tutorial)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
